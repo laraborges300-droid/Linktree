@@ -49,11 +49,18 @@ a {
   color: #1b3299;
   text-decoration: none;
   transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+
 }
 
 a:hover {
   transform: scale(1.05);
 }
+
+a:active {
+    transform: scale(0.95);
+    transition: none;
+}
+
 /* decorações*/
 
 .circuitos {
